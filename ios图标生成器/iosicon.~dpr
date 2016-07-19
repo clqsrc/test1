@@ -1,0 +1,13 @@
+program iosicon;
+
+uses
+  Forms,
+  uMainIosIcon in 'uMainIosIcon.pas' {frmMainIosIcon};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrmMainIosIcon, frmMainIosIcon);
+  Application.Run;
+end.

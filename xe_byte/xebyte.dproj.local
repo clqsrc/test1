@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/01/15 17:00:30.000.631,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/13 17:16:19.000.259,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/13 17:19:24.000.942,D:\gs_d\fy\test1\xe_byte\Unit1.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/05/13 17:19:24.000.942,D:\gs_d\fy\test1\xe_byte\Unit1.fmx=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2016/05/13 17:19:33.000.063,D:\gs_d\fy\test1\xe_byte\xebyte.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/05/16 08:45:24.000.911,=D:\gs_d\fy\test1\xe_byte\Unit2.pas</Transaction>
+    <Transaction>2016/05/16 08:47:28.000.771,D:\gs_d\fy\test1\xe_byte\Unit2.pas=D:\gs_d\fy\test1\xe_byte\string2.pas</Transaction>
+    <Transaction>2016/05/16 08:47:38.000.284,D:\gs_d\fy\test1\xe_byte\string2.pas=</Transaction>
+    <Transaction>2016/05/16 09:32:49.000.891,=D:\gs_d\fy\test1\xe_byte\Unit2.pas</Transaction>
+    <Transaction>2016/05/16 09:33:47.000.687,D:\gs_d\fy\test1\xe_byte\Unit2.pas=D:\gs_d\fy\test1\xe_byte\stringbyte.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<P192.168.44.130 iOSSimulator="iPhone5"/>
+		<NoProfile Android="1"/>
+	</ActiveMobileDevice>
+</BorlandProject>
