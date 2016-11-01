@@ -658,13 +658,12 @@ object frmMainIosIcon: TfrmMainIosIcon
         Width = 832
         Height = 442
         HorzScrollBar.Tracking = True
-        VertScrollBar.Position = 19
         VertScrollBar.Tracking = True
         Align = alClient
         TabOrder = 1
         object GroupBox14: TGroupBox
           Left = 16
-          Top = -11
+          Top = 8
           Width = 625
           Height = 217
           Caption = 'iPhone'
@@ -721,7 +720,7 @@ object frmMainIosIcon: TfrmMainIosIcon
         end
         object GroupBox11: TGroupBox
           Left = 16
-          Top = 221
+          Top = 240
           Width = 625
           Height = 217
           Caption = 'iPad'

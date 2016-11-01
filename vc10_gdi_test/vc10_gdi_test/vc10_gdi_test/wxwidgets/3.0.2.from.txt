@@ -1,0 +1,15 @@
+
+主要来自以下页面
+https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.2
+
+wx/setup.h 是要另外配置的,否则会出现
+1>D:\gs_d\fy\src\hk_interface\VCExample_WIN32and64[741]\SPVCDLL3_cmd2\SPVCDLL3_Win32_VCExa\wxwidgets\include\wx/platform.h(183): fatal error C1083: 无法打开包括文件:“wx/setup.h”: No such file or directory
+
+
+
+
+
+
+
+
+

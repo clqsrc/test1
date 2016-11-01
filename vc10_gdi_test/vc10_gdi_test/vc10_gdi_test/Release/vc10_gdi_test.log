@@ -1,0 +1,128 @@
+﻿生成启动时间为 2016/10/27 11:34:39。
+     1>项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\vc10_gdi_test.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iwxwidgets\include\msvc /Iwxwidgets\include /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\vc10_gdi_test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iwxwidgets\include\msvc /Iwxwidgets\include /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\vc10_gdi_test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vc10_gdi_test.cpp
+         vc10_gdi_test.cpp
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(211): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(213): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(215): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(217): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(219): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(221): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(223): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(225): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(227): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(230): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(232): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(234): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(236): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(238): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(240): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(242): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(244): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(246): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(248): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(260): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(273): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(306) : 参见“wcsncpy”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(281): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(283): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(285): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(287): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(289): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(291): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(293): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(295): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(297): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(299): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(302): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : 参见“strncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(304): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(299) : 参见“wcsncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(306): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : 参见“strncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(308): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : 参见“strncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(310): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : 参见“strncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(312): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(299) : 参见“wcsncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(314): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(299) : 参见“wcsncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(316): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(299) : 参见“wcsncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(318): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : 参见“strncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(320): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(299) : 参见“wcsncat”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(754): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(601) : 参见“_wfopen”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(756): warning C4996: '_wfreopen': This function or variable may be unsafe. Consider using _wfreopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(603) : 参见“_wfreopen”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(923): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : 参见“getenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(924): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(658) : 参见“_wgetenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(925): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : 参见“getenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(926): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : 参见“getenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(927): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(433) : 参见“getenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\wxcrt.h(928): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(658) : 参见“_wgetenv”的声明
+     1>d:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\wxwidgets\include\wx\filefn.h(515): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(278) : 参见“_wopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\Release\vc10_gdi_test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:wxwidgets\lib\vc_lib /LIBPATH:wxwidgets\lib2\vc100_dll___ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\vc10_gdi_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\Release\vc10_gdi_test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\Release\vc10_gdi_test.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\vc10_gdi_test.obj
+     1>stdafx.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+         vc10_gdi_test.vcxproj -> D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\Release\vc10_gdi_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\Release\vc10_gdi_test.exe;#1" /manifest Release\vc10_gdi_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\vc10_gdi_test.unsuccessfulbuild”。
+         正在对“Release\vc10_gdi_test.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.53

@@ -856,7 +856,7 @@ begin
   ToImg(320, 480, 'FM_LaunchImage_320x480.png');
   ToImg(640, 960, 'FM_LaunchImage_640x960.png');
   ToImg(640, 1136, 'FM_LaunchImage_640x1136.png');
-  ToImg(750, 1134, 'FM_LaunchImage_750x1134.png');
+  ToImg(750, 1334, 'FM_LaunchImage_750x1334.png');
   ToImg(1242, 2208, 'FM_LaunchImage_1242x2208.png');
   ToImg(2208, 1242, 'FM_LaunchImage_2208x1242.png');
 
