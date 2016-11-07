@@ -1,9 +1,9 @@
-object Form1: TForm1
-  Left = 192
+object formDraw: TformDraw
+  Left = 249
   Top = 131
   Width = 1305
   Height = 675
-  Caption = 'Form1'
+  Caption = 'formDraw'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,13 +14,4 @@ object Form1: TForm1
   OnPaint = FormPaint
   PixelsPerInch = 96
   TextHeight = 13
-  object Button1: TButton
-    Left = 64
-    Top = 24
-    Width = 75
-    Height = 25
-    Caption = 'Button1'
-    TabOrder = 0
-    OnClick = Button1Click
-  end
 end

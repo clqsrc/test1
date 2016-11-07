@@ -5,11 +5,13 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   IGDIPlus,
-  Dialogs;
+  Dialogs, StdCtrls;
 
 type
   TForm1 = class(TForm)
+    Button1: TButton;
     procedure FormPaint(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     function DrawString(pszbuf: WideString): Boolean;
     function DrawString2(pszbuf: WideString): Boolean;
@@ -36,6 +38,8 @@ var
   Form1: TForm1;
 
 implementation
+
+uses frmDraw;
 
 {$R *.dfm}
 
@@ -413,6 +417,11 @@ begin
   //DrawString('aaa中文');
   DrawString3('aaa中文');
 
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  formDraw.show;
 end;
 
 end.
