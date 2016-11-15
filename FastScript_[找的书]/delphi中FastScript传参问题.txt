@@ -1,0 +1,108 @@
+delphi中FastScript传参问题 [问题点数：100分，结帖人hu306611439]
+
+	
+楼主 发表于： 2012-08-02 10:27:02
+我用FastScript读取 文本文件脚本在执行 但是参数不知道怎么传 现在贴上代码
+程序里的
+function GetDayNum(ls_ScriptPath:string;li_Year,li_Month,li_Day:Integer):Integer;
+var
+  fs:fsScript;
+  li_i,li_sum:Integer;
+begin
+  fs:=TfsScript.Create(nil);
+  Result:=-1;
+  if not FileExists(ls_ScriptPath) then
+  begin
+    ShowMessage('找不到可执行脚本');
+    Exit;
+  end
+  else
+  begin
+    fs.Clear;
+    fs.AddClass(Tfrmn,'Tfrmn');
+    fs.Lines.LoadFromFile(ls_ScriptPath);
+    fs.Parent:=fsGlobalUnit;
+    if fs.Compile then
+      fs.Execute
+    else
+    begin
+      showmessage(fs.ErrorMsg);
+    end;
+  end;
+  if li_sum >= 0 then
+    Result:= li_sum;
+end;
+
+脚本
+begin
+    if Length(li_Year)>4 then
+    begin
+      ShowMessage('不是正确的年份');
+      Exit;
+    end
+    else if (li_Month>12) or (not TryStrToInt(IntToStr(li_Month),li_i)) or
+      (li_Month <0) then
+    begin
+      ShowMessage('不是正确的月份');
+      Exit;
+    end
+    else if (li_Day>31) or (not TryStrToInt(IntToStr(li_Month),li_i))or
+       (li_Day <0) then
+    begin
+      ShowMessage('不是正确的天数');
+      Exit;
+    end;
+    li_sum:=(li_Year*365)+(li_Month*30)+li_Day;
+end.
+
+
+	
+#4 得分：100 回复于： 2012-08-03 16:26:19
+
+{这个脚本功能恐怕很少人用到过，所以没人回答你…
+你的脚本不正确,你要先在程序中能正常执行，再放到txt中
+ 
+下面例子只测试1个参数，其它参数自己处理，自己参考着改吧:
+D:\1.txt脚本:}
+Function ChkDate(li_Year,li_Month,li_Day:Integer):Integer;
+begin
+  Result:=0;
+  if Length(IntToStr(li_Year))>4 then
+  begin
+    ShowMessage('不是正确的年份');
+    Exit;
+  end;
+  Result:=li_Year*365;
+end;
+ 
+begin
+end.
+ 
+{程序代码:}
+function GetDayNum(ls_ScriptPath:string;li_Year,li_Month,li_Day:Integer):Integer;
+var
+  fs:TfsScript;
+begin
+  Result:=0;
+  if not fileexists(ls_ScriptPath) then
+     Exit;
+  fs:=TfsScript.Create(nil);
+  try
+  fs.Parent:=fsGlobalUnit;
+  fs.Lines.LoadFromFile(ls_ScriptPath);
+  if fs.Compile then
+  begin
+    fs.FindLocal('ChkDate').Params[0].Value:=li_Year;  {其它参数类似赋值}
+    Result:=fs.FindLocal('ChkDate').Value;             {脚本中函数ChkDate的返回值}
+  end;
+ 
+  finally
+    fs.Free;
+  end;
+end;
+ 
+ShowMessage(IntToStr(GetDayNum('D:\1.txt',2,1,1)));  {结果730 即2*365}
+
+	
+#5 得分：0 回复于： 2012-08-06 10:26:03
+非常感谢完美的解决了
