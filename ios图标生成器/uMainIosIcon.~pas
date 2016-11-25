@@ -115,6 +115,7 @@ type
     Button14: TButton;
     Button15: TButton;
     Button16: TButton;
+    Button17: TButton;
     procedure Button1Click(Sender: TObject);
     procedure icon1024Click(Sender: TObject);
     procedure btnConvertClick(Sender: TObject);
@@ -132,6 +133,7 @@ type
     procedure Button12Click(Sender: TObject);
     procedure Button14Click(Sender: TObject);
     procedure Button15Click(Sender: TObject);
+    procedure Button17Click(Sender: TObject);
   private
     procedure SavePng(image: TImage; fn: string);
     procedure CreateXE10LaunchImage;
@@ -967,6 +969,40 @@ begin
 
   //白底的简易运行图标
   CreateXE10LaunchImage_ipad;
+
+end;
+
+procedure TfrmMainIosIcon.Button17Click(Sender: TObject);
+var
+  path:string;
+  png:TPngObject;
+  fn,newfn:string;
+  
+begin
+
+  path := ExtractFilePath(SaveDialog1.FileName);
+
+  fn := path + 'FM_ApplicationIcon_57x57.png';
+  newfn := path + 'Icon.png';
+
+  CopyFile(PChar(fn), PChar(newfn), False);
+
+  //--------------------------------------------------
+
+  fn := path + 'FM_ApplicationIcon_114x114.png';
+  newfn := path + 'Icon@2x.png';
+
+  CopyFile(PChar(fn), PChar(newfn), False);
+
+  //--------------------------------------------------
+
+  fn := path + 'FM_ApplicationIcon_120x120.png';
+  newfn := path + 'Icon-120.png';
+
+  CopyFile(PChar(fn), PChar(newfn), False);
+
+
+  png.Free;
 
 end;
 

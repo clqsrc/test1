@@ -717,6 +717,15 @@ object frmMainIosIcon: TfrmMainIosIcon
             Caption = '3.'#20445#23384'...'
             TabOrder = 2
           end
+          object Button17: TButton
+            Left = 536
+            Top = 56
+            Width = 75
+            Height = 25
+            Caption = #22797#21046#20026'xcode'
+            TabOrder = 3
+            OnClick = Button17Click
+          end
         end
         object GroupBox11: TGroupBox
           Left = 16

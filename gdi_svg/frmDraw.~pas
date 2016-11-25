@@ -10,12 +10,22 @@ uses
 type
   TformDraw = class(TForm)
     procedure FormPaint(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormMouseUp(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
   private
     function DrawString3(pszbuf: WideString): Boolean;
     procedure Draw_bez(Graphics: IGPGraphics);
     { Private declarations }
   public
     { Public declarations }
+    isDown:Boolean;
+    //按下移动过的各个位置
+    downPoint:array of TPoint;
   end;
 
 var
@@ -109,20 +119,6 @@ begin
                                                 MakeColor(255,30,120,195)); //线性渐变结束色,注意第1个参数是 Alpha 通道
 
   //---------------------开始：画背景框和背景图---------------------------------- 
-  //if bBack then
-  if true then
-  begin
-    //brush := TGPSolidBrush.Create(MakeColor(25,228,228,228));
-    brush := TGPSolidBrush.Create(MakeColor(100, 0,0,0));
-//    pen1 := TGPPen.Create(MakeColor(155,223,223,223));
-//    pen2 := TGPPen.Create(MakeColor(55,223,223,223));
-//    image := TGPImage.Create('back.png');             //背景图片
-    graphics.FillRectangle(linGrBrush,15,15,100,100);         //填充背景框色//这个会极大的影响性能
-//    graphics.FillRectangle(linGrBrush,3,5,750,90);         //填充背景框色//这个会极大的影响性能
-//    graphics.DrawRectangle(pen1,2,6,751,91);          //内层背景框
-//    graphics.DrawRectangle(pen2,1,5,753,93);          //外层背景框
-//    graphics.DrawImage(image,600,25);
-  end;
 
   Draw_bez(graphics);
 
@@ -143,6 +139,40 @@ procedure TformDraw.FormPaint(Sender: TObject);
 begin
 
   DrawString3('aaa中文');
+
+end;
+
+procedure TformDraw.FormCreate(Sender: TObject);
+begin
+  Self.isDown := False;
+end;
+
+procedure TformDraw.FormMouseUp(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  Self.isDown := False;
+end;
+
+procedure TformDraw.FormMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  Self.isDown := True;
+
+  SetLength(downPoint, 0);
+
+end;
+
+procedure TformDraw.FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+var
+  p:TPoint;
+
+begin
+  if Self.isDown = False then Exit;
+
+  SetLength(downPoint, Length(downPoint)+1);
+
+  downPoint[Length(downPoint)-1] := p;
 
 end;
 

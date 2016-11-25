@@ -10,12 +10,22 @@ uses
 type
   TformDraw = class(TForm)
     procedure FormPaint(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormMouseUp(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+      Y: Integer);
   private
     function DrawString3(pszbuf: WideString): Boolean;
     procedure Draw_bez(Graphics: IGPGraphics);
     { Private declarations }
   public
     { Public declarations }
+    isDown:Boolean;
+    //按下移动过的各个位置
+    downPoint:array of TPoint;
   end;
 
 var
@@ -129,6 +139,41 @@ procedure TformDraw.FormPaint(Sender: TObject);
 begin
 
   DrawString3('aaa中文');
+
+end;
+
+procedure TformDraw.FormCreate(Sender: TObject);
+begin
+  Self.isDown := False;
+end;
+
+procedure TformDraw.FormMouseUp(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  Self.isDown := False;
+end;
+
+procedure TformDraw.FormMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  Self.isDown := True;
+
+  SetLength(downPoint, 0);
+
+end;
+
+procedure TformDraw.FormMouseMove(Sender: TObject; Shift: TShiftState; X,
+  Y: Integer);
+var
+  p:TPoint;
+
+begin
+  if Self.isDown = False then Exit;
+
+  SetLength(downPoint, Length(downPoint)+1);
+
+  p.X := X; p.Y := Y;
+  downPoint[Length(downPoint)-1] := p;
 
 end;
 
