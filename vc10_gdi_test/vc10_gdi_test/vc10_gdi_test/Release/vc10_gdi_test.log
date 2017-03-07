@@ -1,9 +1,10 @@
-﻿生成启动时间为 2016/10/27 11:34:39。
-     1>项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
+﻿生成启动时间为 2017/2/7 10:55:22。
+     1>项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\vc10_gdi_test.lastbuildstate”。
+       InitializeBuildStatus:
          正在对“Release\vc10_gdi_test.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         所有输出均为最新。
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iwxwidgets\include\msvc /Iwxwidgets\include /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\vc10_gdi_test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iwxwidgets\include\msvc /Iwxwidgets\include /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\vc10_gdi_test.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vc10_gdi_test.cpp
@@ -121,8 +122,8 @@
        FinalizeBuildStatus:
          正在删除文件“Release\vc10_gdi_test.unsuccessfulbuild”。
          正在对“Release\vc10_gdi_test.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“D:\gs_d\fy\test1\test1\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test\vc10_gdi_test.vcxproj”(rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.53
+已用时间 00:00:03.62
